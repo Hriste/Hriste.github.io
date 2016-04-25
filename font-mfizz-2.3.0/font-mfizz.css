@@ -30,6 +30,7 @@
     src: url("./font-mfizz.svg#font-mfizz") format("svg");
   }
 }
+.icon-3x {font-size: 3em;}
 
 [data-icon]:before { content: attr(data-icon); }
 
