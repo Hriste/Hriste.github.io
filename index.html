@@ -1,53 +1,138 @@
+<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="author" content="Christina Paolicelli">
-    <link rel="stylesheet" href="bootstrap.min.css">
-    <link href="https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
-    <link rel="stylesheet" href="template.css">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Christina Paolicelli">
+  <meta name="description" content="Christina Paolicelli is a senior embedded software and algorithms engineer working across computational geometry, computer vision, robotics, and autonomous systems.">
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link href="https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+  <link rel="stylesheet" href="template.css">
+  <title>Christina Paolicelli — Embedded Software & Algorithms Engineer</title>
+</head>
+<body>
+  <div class="site-shell">
+    <nav class="site-nav" aria-label="Primary navigation">
+      <a class="brand" href="index.html">Christina Paolicelli</a>
+      <div class="nav-links">
+        <a href="#work">Expertise</a>
+        <a href="#projects">Projects</a>
+        <a class="nav-cta" href="Resume.pdf">Resume</a>
+      </div>
+    </nav>
 
-    <title>Christina Paolicelli</title>
-  </head>
+    <main>
+      <section class="hero">
+        <div>
+          <p class="eyebrow">Senior Software Engineer · Algorithms</p>
+          <h1>I design software for machines that work in the real world.</h1>
+          <p class="hero-copy">I’m an embedded software and algorithms engineer specializing in computational geometry, computer vision, robotics, and autonomous systems.</p>
+          <div class="hero-actions">
+            <a class="button button-secondary" href="Resume.pdf">Download resume</a>
+          </div>
+        </div>
+        <aside class="hero-aside" aria-label="Current focus">
+          <strong>Current focus</strong>
+          <p>Geometry and vision systems that are robust, testable, reusable, and fast enough for embedded products.</p>
+        </aside>
+      </section>
 
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Christina Paolicelli</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+      <section class="section" id="work">
+        <div class="section-heading">
+          <p class="eyebrow">What I do</p>
+          <div>
+            <h2>From algorithms to field-tested systems.</h2>
+            <p class="section-intro">My work spans early technical exploration, production implementation, system integration, and real-world testing.</p>
+          </div>
+        </div>
+        <div class="capabilities">
+          <article class="capability">
+            <span class="number">01</span>
+            <h3>Computational geometry</h3>
+            <p>Toolpath generation, polygon offsetting, region decomposition, and robust handling of complex contour geometry.</p>
+          </article>
+          <article class="capability">
+            <span class="number">02</span>
+            <h3>Computer vision</h3>
+            <p>Image processing, optical flow, and deep-learning systems built for constrained or imperfect inputs.</p>
+          </article>
+          <article class="capability">
+            <span class="number">03</span>
+            <h3>Embedded & autonomous systems</h3>
+            <p>C++ and Python software for robotics, sensor platforms, flight testing, and data analysis.</p>
+          </article>
+        </div>
+      </section>
 
-  <div class="collapse navbar-collapse" id="navbarColor03">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item">
-        <a class="nav-link" href="Resume.pdf">Resume</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="portfolio.html">Portfolio</a>
-      </li>
-    </ul>
+      <section class="experience-strip" aria-labelledby="experience-title">
+        <div class="experience-inner">
+          <p class="eyebrow">Experience</p>
+          <h2 id="experience-title">Building across industries.</h2>
+          <div class="experience-grid">
+            <div class="experience-item"><span>2023—Present</span><strong>Shaper Tools</strong><span>Senior Software Engineer, Algorithms</span></div>
+            <div class="experience-item"><span>2021—2023</span><strong>Rain Industries</strong><span>Senior Software Engineer</span></div>
+            <div class="experience-item"><span>2020—2021</span><strong>BAE Systems</strong><span>Senior Software Engineer</span></div>
+            <div class="experience-item"><span>2017—2020</span><strong>BAE Systems</strong><span>Software Engineer</span></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+
+    <section class="section" id="projects">
+      <header class="projects-header">
+        <p class="eyebrow">Personal Projects</p>
+        <h2>Exploring the world through code</h2>
+        <p class="hero-copy">A selection of research and personal projects</p>
+      </header>
+
+      <div class="project-grid">
+        <article class="project-card">
+          <div class="project-image"><img src="img/thesis.png" alt="Johns Hopkins University thesis mark"></div>
+          <div class="project-content">
+            <p class="project-kicker">Machine learning · Research</p>
+            <h3>Low-quality license plate recognition</h3>
+            <p>Master’s thesis developing a deep-learning framework for character recognition in degraded license plate imagery.</p>
+            <div class="project-links"><a href="https://jscholarship.library.jhu.edu/handle/1774.2/63818">Read thesis →</a></div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-image"><img src="img/sf_coffee.png" alt="Map of San Francisco coffee locations"></div>
+          <div class="project-content">
+            <p class="project-kicker">Geospatial · Open source</p>
+            <h3>Geospatial playground</h3>
+            <p>A hands-on collection of mapping experiments and tutorials for learning practical geospatial programming workflows.</p>
+            <div class="project-links">
+              <a href="https://github.com/Hriste/geospatial_playground">GitHub →</a>
+              <a href="https://medium.com/@DotChristina/google-maps-list-to-osmx-87efe8f9ea7d">Tutorial →</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-image"><img src="img/optical_flow_bot.png" alt="Robot used for optical-flow object avoidance"></div>
+          <div class="project-content">
+            <p class="project-kicker">Robotics · Computer vision</p>
+            <h3>Optical-flow object avoidance</h3>
+            <p>An autonomous robot that uses OpenCV optical flow to detect obstacles and determine a safer direction of travel.</p>
+            <div class="project-links">
+              <a href="https://github.com/Hriste/OpticalFlow">GitHub →</a>
+              <a href="papers/Optical Flow Based Object Detection and Avoidance.pdf">Paper →</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <span></span>
+      <div class="social-links" aria-label="Social links">
+        <a href="https://github.com/Hriste" aria-label="GitHub"><i class="fa fa-github" aria-hidden="true"></i></a>
+        <a href="https://www.linkedin.com/in/c-paolicelli/" aria-label="LinkedIn"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+        <a href="mailto:Christina.dot.paolicelli@gmail.com" aria-label="Email"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+      </div>
+    </footer>
   </div>
-</nav>
-
-    <div class="jumbotron">
-        <p class="text-secondary" style="font-family:'acumin-pro-condensed', sans-serif">Hi, my name is</p>
-      <h1> Christina Paolicell</h1>
-      <p class="text-muted" style="font-family:'acumin-pro-condensed', sans-serif">I'm an Embedded Software Engineer specializing in Computer Vision & Image Processing.</p>
-    </div>
-  </body>
-  <!-- Footer -->
-<footer class="bg-light text-center text-lg-start">
-  <div>
-    <center>
-      <a class="btn btn-default" href="https://github.com/Hriste">
-        <i class="fa fa-github fa-2x" aria-hidden="true"></i>
-      </a>
-      <a class="btn btn-default" href="https://www.linkedin.com/in/c-paolicelli/">
-        <i class="fa fa-linkedin fa-2x" aria-hidden="true"></i>
-      </a>
-    </center>
-  </div>
-
-</footer>
-<!-- Footer -->
+</body>
 </html>
